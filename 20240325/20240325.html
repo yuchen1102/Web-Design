@@ -6,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>偶像貓咪</title>
 </head>
-
+<style> 
+    .back-link {
+        position: absolute;
+        top: 2px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        text-decoration: none;
+        color: #333;
+        border-radius: 4px;
+    }
+    .top{
+        margin-top: 50px;
+    }
+</style>
 <body>
+    <a href="#" class="back-link" onclick="goBack()">返回</a>
 
-    <h1>KOMA-NATSU Web</h1>
+    <script>
+        // JavaScript 函数，用于返回上一页
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <h1 class="top">KOMA-NATSU Web</h1>
     <p>介紹一下我家的偶像貓咪們！</p>
     <nav>
         <ul>

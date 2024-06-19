@@ -8,9 +8,28 @@
   <meta name="description" content="介紹我家的貓咪們！還有大量可愛的貓照片。">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
+<style>
+  .back-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+  }
+</style>
 <div id="contents">
+  <a href="#" class="back-link" onclick="goBack()">返回</a>
 
+      <script>
+        // JavaScript 函数，用于返回上一页
+        function goBack() {
+          window.history.back();
+        }
+      </script>
   <body>
     <header>
       <h1>KOMA-NATSU Web</h1>

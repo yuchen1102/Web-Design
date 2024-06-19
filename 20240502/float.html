@@ -25,10 +25,28 @@
         .clear{
             clear: both;
         }
-        
+        .back-link {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        text-decoration: none;
+        color: #333;
+    }
     </style>
 </head>
 <body>
+    
+<a href="#" class="back-link" onclick="goBack()">返回</a>
+
+<script>
+    // JavaScript 函数，用于返回上一页
+    function goBack() {
+        window.history.back();
+    }
+</script>
     <div id="container">
         <div class="inner ">嗨嗨</div>
         <div class="inner left"></div>
