@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-    overflow: visible;
+    overflow:visible;
     /* 確保溢出部分可見 */
     background-color: #333;
     position: fixed;
